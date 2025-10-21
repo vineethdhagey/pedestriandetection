@@ -62,7 +62,9 @@ python main.py --task infer
 📊 Evaluate Model Performance
 ```bash
 python main.py --task evaluate
+
 ```
+
 
 
 🖥 Launch Streamlit Dashboard
@@ -70,3 +72,4 @@ python main.py --task evaluate
 streamlit run main.py -- --task dashboard
 ```
 
+<img width="1473" height="830" alt="a" src="https://github.com/user-attachments/assets/0e9a0455-c818-4a06-9fbc-232fae853762" />
