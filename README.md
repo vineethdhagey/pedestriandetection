@@ -21,21 +21,28 @@ This project implements a multi-camera object detection pipeline using YOLOv8 an
 
 🧪 Project Structure
 ```
-
 multi_view_object_detection/
-├── data/                      # Raw and processed WildTrack data
-├── logs/                      # Training logs and model checkpoints
-├── runs/detect/predict/      # Inference outputs (dummy or real)
+├── data/                         # Raw and processed WildTrack data
+│   ├── raw/    
+│   └── processed/
+├── notebooks/
 ├── src/
 │   ├── data_preprocessing.py
+│   ├── dataset.py
+│   ├── model.py
 │   ├── train.py
-│   ├── infer.py
 │   ├── evaluate.py
-│   ├── dashboard.py
+│   ├── fuse_detections.py
 │   └── utils.py
-├── main.py                   # CLI task router
+├── configs/
+│   ├── model_config.yaml
+│   └── dataset_config.yaml
+├── logs/                                 # Training logs and model checkpoints
 ├── requirements.txt
-└── README.md
+├── README.md
+└── main.py                              # CLI task router
+
+
 
 ```
 
