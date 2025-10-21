@@ -1,0 +1,19 @@
+# Placeholder
+
+---
+
+## ⚙️ `configs/model_config.yaml`
+
+```yaml
+model:
+  name: yolov8n
+  pretrained: true
+  input_size: 640
+  num_classes: 80
+
+training:
+  batch_size: 16
+  epochs: 50
+  learning_rate: 0.001
+  checkpoint_dir: logs/checkpoints
+  log_dir: logs/tensorboard

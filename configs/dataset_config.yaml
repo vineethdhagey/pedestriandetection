@@ -1,0 +1,9 @@
+dataset:
+  raw_dir: data/raw/wildtrack.v1i.yolov8
+  processed_dir: data/processed
+  annotation_format: yolov8
+  cameras:
+    - cam1  # You can simulate multi-view by treating subsets of images as separate views
+
+calibration:
+  file: configs/calibration.json  # Optional if you want to use WildTrack's calibration later
