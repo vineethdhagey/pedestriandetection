@@ -12,8 +12,6 @@ This project implements a multi-camera object detection pipeline using YOLOv8 an
 
 📊 Evaluation metrics: mAP, precision, recall
 
-🖼 Dummy outputs for demo and resume use
-
 🖥 Streamlit dashboard for visualizing predictions
 
 🧩 Modular CLI interface via main.py
