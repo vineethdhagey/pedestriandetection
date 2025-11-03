@@ -138,12 +138,8 @@ training:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
-
-*Built with ❤️ using PyTorch, Ultralytics YOLOv8, and Streamlit*
+*Built using PyTorch, Ultralytics YOLOv8, and Streamlit*
 
 ![Dashboard Screenshot](https://github.com/user-attachments/assets/0e9a0455-c818-4a06-9fbc-232fae853762)
