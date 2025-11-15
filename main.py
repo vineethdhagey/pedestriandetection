@@ -16,6 +16,10 @@ def main():
     elif args.task == "infer":
         from src import infer
         infer.run()
+    
+    elif args.task == "fuse":
+        from src import fuse_detections
+        fuse_detections.run()
 
     elif args.task == "evaluate":
         from src import evaluate

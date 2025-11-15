@@ -2,8 +2,17 @@ dataset:
   raw_dir: data/raw/wildtrack.v1i.yolov8
   processed_dir: data/processed
   annotation_format: yolov8
+  train: data/raw/wildtrack.v1i.yolov8/train
+  val: data/raw/wildtrack.v1i.yolov8/val
+  test: data/raw/wildtrack.v1i.yolov8/test
   cameras:
-    - cam1  # You can simulate multi-view by treating subsets of images as separate views
+    - cam1
+    - cam2
+    - cam3
+    - cam4
+    - cam5
+    - cam6
+    - cam7
 
 calibration:
-  file: configs/calibration.json  # Optional if you want to use WildTrack's calibration later
+  file: configs/calibration.json

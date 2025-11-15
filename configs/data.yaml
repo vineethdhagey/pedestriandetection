@@ -1,0 +1,7 @@
+# configs/data.yaml
+train: C:/Users/vidh24/Downloads/pedestriandetection/data/raw/wildtrack.v1i.yolov8/train/images
+val: C:/Users/vidh24/Downloads/pedestriandetection/data/raw/wildtrack.v1i.yolov8/valid/images
+test: C:/Users/vidh24/Downloads/pedestriandetection/data/raw/wildtrack.v1i.yolov8/test/images
+
+nc: 1
+names: ["pedestrian"]

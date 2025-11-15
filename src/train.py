@@ -1,7 +1,7 @@
 """
 Train YOLOv8 model using Roboflow WildTrack dataset.
 """
-
+import os
 from ultralytics import YOLO
 
 def run():
@@ -17,6 +17,7 @@ def run():
         name="wildtrack_yolov8",
         exist_ok=True
     )
-
+    os.makedirs("logs/checkpoints", exist_ok=True)
+    model.save("logs/checkpoints/yolov8_wildtrack.pt")
     # Save final model
     model.save("logs/checkpoints/yolov8_wildtrack.pt")

@@ -5,6 +5,7 @@ def run():
     results = model.predict(
         source="data/raw/wildtrack.v1i.yolov8/test/images",
         save=True,
-        conf=0.25
+        conf=0.25,
+        save_txt=True
     )
     print("Inference complete. Results saved in:", results[0].save_dir)

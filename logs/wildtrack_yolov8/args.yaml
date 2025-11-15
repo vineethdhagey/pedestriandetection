@@ -103,4 +103,4 @@ auto_augment: randaugment
 erasing: 0.4
 cfg: null
 tracker: botsort.yaml
-save_dir: C:\Users\Vineeth\Desktop\multi_view_object_detection\logs\wildtrack_yolov8
+save_dir: C:\Users\vidh24\Downloads\pedestriandetection\logs\wildtrack_yolov8
