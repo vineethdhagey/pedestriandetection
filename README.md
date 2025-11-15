@@ -104,7 +104,7 @@ python main.py --task evaluate
 ### 🖥️ Launch Dashboard
 Visualize results in a web interface:
 ```bash
-streamlit run main.py -- --task dashboard
+python -m streamlit run src/dashboard.py 
 ```
 
 ## ⚙️ Configuration
