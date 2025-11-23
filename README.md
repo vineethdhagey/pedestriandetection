@@ -107,6 +107,20 @@ Visualize results in a web interface:
 python -m streamlit run src/dashboard.py 
 ```
 
+### 📊 Evaluation Metrics
+
+| Metric       | Score  |
+|--------------|--------|
+| Precision    | 0.896  |
+| Recall       | 0.856  |
+| mAP@50       | 0.896  |
+| mAP@50‑95    | 0.586  |
+
+
+
+
+
+
 ## ⚙️ Configuration
 
 Customize the pipeline using YAML config files in the `configs/` directory:
